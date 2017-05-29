@@ -1,2 +1,142 @@
+.env
+venv/
+.autoenv.zsh
+.autoenv_leave.zsh
+.autoenv.sh
+.autoenv_leave.sh
+.DS_Store
+*.swp
+*~.nib
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# SublimeText project files
+*.sublime-workspace
+
+# Created by https://www.gitignore.io
+
+### PyCharm ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
+
+*.iml
+
+## Directory-based project format:
+.idea/
+# if you remove the above rule, at least ignore the following:
+
+# User-specific stuff:
+# .idea/workspace.xml
+# .idea/tasks.xml
+# .idea/dictionaries
+
+# Sensitive or high-churn files:
+# .idea/dataSources.ids
+# .idea/dataSources.xml
+# .idea/sqlDataSources.xml
+# .idea/dynamic.xml
+# .idea/uiDesigner.xml
+
+# Gradle:
+# .idea/gradle.xml
+# .idea/libraries
+
+# Mongo Explorer plugin:
+# .idea/mongoSettings.xml
+
+## File-based project format:
+*.ipr
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+
+# config files
+boto.cfg
+server.conf
+logging.conf
+
+pyapns/*.pem
+pyapns/myra.tac
+pyapns/myra-conf.json
+
+# the spell check file
+big.txt
+
+# ftp download dir
+ftp_client_data/*
+
+
+## CACHE
+.cache/
+
+
+## IDEA/PYCHARM
+*.sublime-project
+
+env/
+
+docker_persistence/
+
+
+alembic_test.ini
+server_test.conf
+/spaces_system/build.sql
+
+docker_setup/initial_dump.sql
 venv/
 .idea/
+*.pyc
